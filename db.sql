@@ -1,0 +1,9 @@
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+CREATE TABLE IF NOT EXISTS `analitics` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ip` varchar(32) DEFAULT NULL,
+  `views` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
